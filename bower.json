@@ -1,6 +1,7 @@
 {
   "name": "bedrock-angular-model",
-  "main": "./app.js",
+  "main": "./model.js",
+  "moduleType": ["amd"],
   "ignore": [],
   "dependencies": {
   }
