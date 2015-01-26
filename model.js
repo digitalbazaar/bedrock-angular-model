@@ -9,7 +9,7 @@ define(['angular', './model-service'], function(angular, modelService) {
 
 'use strict';
 
-var module = angular.module('app.model', []);
+var module = angular.module('bedrock.model', []);
 
 module.service(modelService);
 
