@@ -2,7 +2,10 @@
   "name": "bedrock-angular-model",
   "main": "./model.js",
   "moduleType": ["amd"],
-  "ignore": [],
+  "ignore": [
+    "bedrock",
+    "bedrock.json"
+  ],
   "dependencies": {
   }
 }
