@@ -94,7 +94,7 @@ Updates an object in-place in an array. `fn` will be called for each element in
 from `dst` will be updated in-place to match `src`. If `fn` never returns
 `true` for any element of `dst`, then `src` is pushed onto `dst`.
 
-### brModelService.replaceArray(dst, src, fn) {
+### brModelService.replaceArray(dst, src, fn)
 
 Updates an array in-place using the elements from another array. For each
 element in `src`, a matching element in `dst` will be sought out using `fn`.
@@ -104,13 +104,13 @@ from `src`. If there is no matching element in `dst`, the element from `src`
 will be pushed onto `dst`. If there are any elements in `dst` that have no
 match in `src`, they will be removed.
 
-### brModelService.removeFromArray(array, fn) {
+### brModelService.removeFromArray(array, fn)
 
 Updates an array in-place by removing a specific element. `fn` will be called
 for each element in `array`, until it returns `true`. If `fn` returns `true`,
 then the element will be removed from `array`.
 
-### brModelService.removeAllFromArray(array, fn) {
+### brModelService.removeAllFromArray(array, fn)
 
 Updates an array in-place by removing all elements that match a particular
 criteria. `fn` will be called for each element in `array`. If `fn` returns
