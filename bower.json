@@ -1,6 +1,6 @@
 {
   "name": "bedrock-angular-model",
-  "version": "1.0.1-dev",
+  "version": "2.0.0",
   "main": "./model.js",
   "moduleType": ["amd"],
   "ignore": [
@@ -8,6 +8,6 @@
     "bedrock.json"
   ],
   "dependencies": {
-    "bedrock-angular": "^1.0.0"
+    "bedrock-angular": "^2.0.0"
   }
 }
