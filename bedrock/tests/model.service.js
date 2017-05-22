@@ -1,3 +1,4 @@
+/* globals expect */
 var bedrock = GLOBAL.bedrock;
 
 describe('model.service', function() {
@@ -206,7 +207,7 @@ describe('model.service', function() {
     ]);
   });
 
-  it('should remove the first element from an array by compare function', function() {
+  it('should remove first element from an array by compare function', () => {
     expect(bedrock.run(function($injector) {
       var array = [
         {id: '0', data: 'keep'},
@@ -230,7 +231,7 @@ describe('model.service', function() {
     ]);
   });
 
-  it('should remove all elements from an array by compare function', function() {
+  it('should remove all elements from an array by compare function', () => {
     expect(bedrock.run(function($injector) {
       var array = [
         {id: '0', data: 'keep'},

@@ -1,16 +1,14 @@
 /*!
  * Model Service.
  *
- * Copyright (c) 2012-2014 Digital Bazaar, Inc. All rights reserved.
+ * Copyright (c) 2012-2017 Digital Bazaar, Inc. All rights reserved.
  *
  * @author Dave Longley
  */
-define(['angular'], function(angular) {
-
-'use strict';
+import angular from 'angular';
 
 /* @ngInject */
-function factory($rootScope) {
+export default function factory() {
   var service = {};
 
   service.replace = function(dst, src, fn) {
@@ -128,12 +126,5 @@ function factory($rootScope) {
     }
   };
 
-  // expose service to scope
-  $rootScope.app.services.model = service;
-
   return service;
 }
-
-return {brModelService: factory};
-
-});

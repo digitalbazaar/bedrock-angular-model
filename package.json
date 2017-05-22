@@ -1,0 +1,17 @@
+{
+  "name": "bedrock-angular-model",
+  "version": "2.0.1-dev",
+  "description": "Bedrock AngularJS Model Utilities",
+  "main": "index.js",
+  "dependencies": {
+    "angular": "~1.6.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digitalbazaar/bedrock-angular-model.git"
+  },
+  "bugs": {
+    "url": "https://github.com/digitalbazaar/bedrock-angular-model/issues"
+  },
+  "homepage": "https://github.com/digitalbazaar/bedrock-angular-model#readme"
+}

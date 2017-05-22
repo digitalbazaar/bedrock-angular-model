@@ -64,7 +64,7 @@ function factory(brModelService) {
 ## Setup
 
 ```
-bower install bedrock-angular-model
+npm install bedrock-angular-model
 ```
 
 If you're using [bedrock-angular][], installation of the module followed by
