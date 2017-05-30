@@ -1,6 +1,6 @@
 {
   "name": "bedrock-angular-model",
-  "version": "3.0.2",
+  "version": "3.0.3-0",
   "description": "Bedrock AngularJS Model Utilities",
   "main": "index.js",
   "dependencies": {
