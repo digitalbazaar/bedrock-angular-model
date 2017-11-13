@@ -1,5 +1,10 @@
 # bedrock-angular-model ChangeLog
 
+## 3.0.3 - 2017-11-13
+
+### Fixed
+- Replace angular dep with bedrock-angular.
+
 ## 3.0.2 - 2017-05-30
 
 ### Fixed
