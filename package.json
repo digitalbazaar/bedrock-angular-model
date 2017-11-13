@@ -4,7 +4,7 @@
   "description": "Bedrock AngularJS Model Utilities",
   "main": "index.js",
   "dependencies": {
-    "angular": "~1.6.4"
+    "bedrock-angular": "^4.0.0"
   },
   "bedrock": {
     "browserDependencies": "all"
